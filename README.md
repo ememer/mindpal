@@ -1,4 +1,4 @@
-# Gettin started
+# Getting started
 
 ## Important information:
 
