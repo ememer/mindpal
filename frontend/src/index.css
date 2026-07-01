@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: hsl(240 5.9% 10%);
+  --color-primary-muted: hsl(240 3.8% 46.1%);
+  --color-foreground: hsl(240 10% 3.9%);
+  --color-muted-foreground: hsl(240 3.8% 46.1%);
+
+  --animate-grow-up: grow-up 0.3s ease-in-out;
+  --animate-wiggle: wiggle 0.4s ease-in-out;
+  --animate-wiggle-infinite: wiggle 0.4s ease-in-out infinite;
+  --animate-slide-in: slide-in 0.3s ease-in-out;
+
+  @keyframes grow-up {
+    0% {
+      transform: scale(0.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  @keyframes wiggle {
+    0% {
+      transform: rotate(0);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  @keyframes slide-in {
+    0% {
+      transform: translateY(-5%);
+      opacity: 0;
+      filter: sepia(0.9);
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+      filter: sepia(0);
+    }
+  }
+}
+
+body {
+  @apply text-primary bg-[#EEEEEE];
+}
+
+@utility anchor-notification-button {
+  anchor-name: --notification-button;
+}
+
+@utility position-anchor-notification-button {
+  position-anchor: --notification-button;
+}
+
+@utility position-area-bottom-end {
+  position-area: block-end;
+  inset-inline: 0.5rem;
+
+  @media (width >= 768px) {
+    position-area: block-end span-inline-start;
+    inset-inline: auto;
+  }
+}
+
+.notification-item {
+  @apply my-1 flex min-h-16 w-full flex-nowrap rounded-xl;
+}
+
+.alert-item {
+  @apply flex flex-col items-center justify-center bg-red-200/60 text-red-400;
+}

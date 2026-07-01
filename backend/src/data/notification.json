@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ntf_001",
+    "type": "join_team",
+    "userName": "Carol Jar",
+    "company": null,
+    "timestamp": "54 minutes ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_002",
+    "type": "join_team",
+    "userName": "Simona Winch",
+    "company": null,
+    "timestamp": "6 hours ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_003",
+    "type": "review_cancelled",
+    "userName": "Jim Beam",
+    "company": "Example Company",
+    "timestamp": "yesterday",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_004",
+    "type": "review_request",
+    "userName": "Jim Beam",
+    "company": "Example Company",
+    "timestamp": "yesterday",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_005",
+    "type": "review_request",
+    "userName": "Peter Pan",
+    "company": "Example Company 2",
+    "timestamp": "2 days ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_006",
+    "type": "join_team",
+    "userName": "John Doe",
+    "company": null,
+    "timestamp": "3 days ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_007",
+    "type": "review_request",
+    "userName": "Alice Smith",
+    "company": "Design Studio",
+    "timestamp": "4 days ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_008",
+    "type": "review_cancelled",
+    "userName": "Alice Smith",
+    "company": "Design Studio",
+    "timestamp": "4 days ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_009",
+    "type": "review_request",
+    "userName": "Bob Ross",
+    "company": "Creative Agency",
+    "timestamp": "1 week ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_010",
+    "type": "join_team",
+    "userName": "Emma Watson",
+    "company": null,
+    "timestamp": "1 week ago",
+    "isUnread": true
+  },
+  {
+    "id": "ntf_011",
+    "type": "join_team",
+    "userName": "Elsa Morn",
+    "company": null,
+    "timestamp": "2 week ago",
+    "isUnread": false
+  }
+]
